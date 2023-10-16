@@ -32,7 +32,7 @@ async function install(window) {
         return;
 
     // backup the original function ...
-    window.folderPane._modes.favorite.groupFavoriteFoldersBackupOf_addFolderr = window.folderPane._modes.favorite._addFolder;
+    window.folderPane._modes.favorite.groupFavoriteFoldersBackupOf_addFolder = window.folderPane._modes.favorite._addFolder;
 
     // ... and overwrite it
     window.folderPane._modes.favorite._addFolder = function (folder) {
@@ -159,11 +159,12 @@ async function uninstall(window) {
         await new Promise(r => window.setTimeout(r, 125))
     }
 
-    if (!window.folderPane || !window.folderPane.groupFavoriteFoldersBackupOf_insertInServerOrder)
+    if (!window.folderPane || !window.folderPane._modes.favorite.groupFavoriteFoldersBackupOf_addFolder)
         return;
 
-    window.folderPane._insertInServerOrder = window.folderPane.groupFavoriteFoldersBackupOf_insertInServerOrder;
-    delete window.folderPane.groupFavoriteFoldersBackupOf_insertInServerOrder;
+    // restore original function
+    window.folderPane._modes.favorite._addFolder = window.folderPane._modes.favorite.groupFavoriteFoldersBackupOf_addFolder;
+    delete window.folderPane._modes.favorite.groupFavoriteFoldersBackupOf_addFolder;
 
     console.log("group_favorite_folders: restored _addFolder(), trigger reload")
     reloadFolders(window.folderPane);
