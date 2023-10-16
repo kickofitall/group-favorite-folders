@@ -1,0 +1,29 @@
+[
+    {
+        "namespace": "CustomFolderGroup",
+        "functions": [
+            {
+                "name": "patch",
+                "type": "function",
+                "async": true,
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "name": "tabId"
+                    }
+                ]
+            },
+            {
+                "name": "update",
+                "type": "function",
+                "async": true,
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "name": "tabId"
+                    }
+                ]
+            }
+        ]
+    }
+]
