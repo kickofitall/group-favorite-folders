@@ -4,6 +4,8 @@
 
 **The plugin only affects the favorites folders with the compact view (flat, no hierarchy).**
 
+[https://addons.thunderbird.net/thunderbird/addon/group-favorite-folders/](https://addons.thunderbird.net/thunderbird/addon/group-favorite-folders/)
+
 Tested on Windows 10 x64 with Thunderbird 115.3.2 (64-bit).
 
 I really liked the favorite folders up to Thunderbird before Supernova.
