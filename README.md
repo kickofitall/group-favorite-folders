@@ -28,6 +28,8 @@ same name in multiple accounts, I don't need the account information here.
 The same goes for my feeds. I group them, see what they are called, the "Feeds"
 appendix is unnecessary.
 
+![screenshot of sorted favorites in compact view](/screenshots/sorted_favorites_in_compact_view.png)
+
 The current order of the groups is as follows:
 1. inbox 
 1. outbox 
