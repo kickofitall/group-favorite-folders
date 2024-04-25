@@ -6,7 +6,9 @@
 
 [https://addons.thunderbird.net/thunderbird/addon/group-favorite-folders/](https://addons.thunderbird.net/thunderbird/addon/group-favorite-folders/)
 
-Tested on Windows 10 x64 with Thunderbird 115.3.2 (64-bit).
+Tested on Windows 10 x64 with Thunderbird (64-Bit):
+- 115.3.2
+- 115.10.1
 
 I really liked the favorite folders up to Thunderbird before Supernova.
 They were reduced, grouped and clear. No superfluous text. They met exactly
