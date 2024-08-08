@@ -1,15 +1,15 @@
 {
     "manifest_version": 2,
     "name": "Group Favorite Folders",
-    "description": "An extension for Thunderbird 115+ (Supernova) that groups and sorts favorites folders in the compact view.",
-    "version": "0.3",
+    "description": "An extension for Thunderbird 115+ that groups and sorts favorites folders in the compact view.",
+    "version": "0.4",
     "author": "kickofitall",
     "homepage_url": "https://github.com/kickofitall/group-favorite-folders",
     "browser_specific_settings": {
         "gecko": {
             "id": "kickofitall@gmail.com",
             "strict_min_version": "115.0",
-            "strict_max_version": "127.*"
+            "strict_max_version": "128.*"
         }
     },
     "icons": {

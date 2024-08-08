@@ -1,6 +1,6 @@
 # Group Favorite Folders
 
-## An extension for Thunderbird 115+ (Supernova) that groups and sorts favorites folders in the compact view.
+## An extension for Thunderbird 115+ that groups and sorts favorites folders in the compact view.
 
 **The plugin only affects the favorites folders with the compact view (flat, no hierarchy).**
 
@@ -9,6 +9,7 @@
 Tested on Windows 10 x64 with Thunderbird (64-Bit):
 - 115.3.2
 - 115.10.1
+- 128.1.0
 
 I really liked the favorite folders up to Thunderbird before Supernova.
 They were reduced, grouped and clear. No superfluous text. They met exactly
