@@ -1,6 +1,6 @@
 # Group Favorite Folders
 
-## An extension for Thunderbird 115+ that groups and sorts favorites folders in the compact view.
+## An extension for Thunderbird that groups and sorts favorites folders in the compact view.
 
 **The plugin only affects the favorites folders with the compact view (flat, no hierarchy).**
 
