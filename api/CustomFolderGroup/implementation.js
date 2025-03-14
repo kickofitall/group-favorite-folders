@@ -1,15 +1,8 @@
 "use strict";
 
 (function (exports) {
-    //var {ExtensionCommon} = ChromeUtils.import("resource://gre/modules/ExtensionCommon.jsm");
-
-    /*var ExtensionCommon = globalThis.ExtensionCommon ||
-        ChromeUtils.importESModule("resource://gre/modules/ExtensionCommon.sys.mjs").ExtensionCommon;*/
-
-    //var {MailServices} = ChromeUtils.import("resource:///modules/MailServices.jsm");
 
     const { MailServices } = ChromeUtils.importESModule("resource:///modules/MailServices.sys.mjs");
-
 
     function get3PaneWindowInstance(nativeTab) {
         return (nativeTab.mode && nativeTab.mode.name === "mail3PaneTab")
