@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Group Favorite Folders",
     "description": "An extension for Thunderbird that groups and sorts favorites folders in the compact view.",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "author": "kickofitall",
     "homepage_url": "https://github.com/kickofitall/group-favorite-folders",
     "browser_specific_settings": {
