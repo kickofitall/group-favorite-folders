@@ -12,6 +12,11 @@ Tested on Windows 10 x64 with Thunderbird (64-Bit):
 - 128.1.0
 - 136.0
 
+Tested on Windows 11 x64 with Thunderbird (64-Bit):
+- 152.0.1
+- 153.0.1
+- 154.0
+
 I really liked the favorite folders up to Thunderbird before Supernova.
 They were reduced, grouped and clear. No superfluous text. They met exactly
 my needs for my daily work. With Thunderbird 115 and newer - aka Supernova - 
